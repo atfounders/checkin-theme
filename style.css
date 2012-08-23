@@ -1,0 +1,224 @@
+/*
+Theme Name: Check In Theme
+Theme URI: http://checkinatfounders.com/
+Description: Check In, based on the P2 Check In plugin.
+Author: Ryan Imel
+Author URI: http://ryanimel.com
+Version: 0.1.5
+*/
+
+body {
+	background: #000 url('http://atfounders.com/wp-content/uploads/2012/07/bg-wood-dark.png') center top repeat-x;
+	color: #fff;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+
+#wrapper {
+	margin: 0 auto;
+	position: relative;
+	width: 700px;
+}
+
+#wrapper li {
+	float: left;
+	list-style-type: none;
+}
+
+.checked-in {
+	float: left;
+	padding: 0 0 30px 0;
+}
+
+.checked-in li {
+	margin-right: 15px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.checked-in h4 {
+	text-align: left;
+	margin: 0 0 5px 0;
+}
+
+.checked-in .meta {
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(0, 0, 0);
+	/* RGBa with 0.6 opacity */
+	background: rgba(0, 0, 0, 0.6);
+	bottom: 0;
+	left: 0;
+	padding: 5px 15px;
+	position: absolute;
+	width: 130px;
+}
+
+.checked-in .meta ul {
+	position: absolute;
+	right: 5px;
+	top: -125px;
+}
+
+.checked-in li.number-4,
+.checked-in li.number-8,
+.checked-in li.number-12,
+.checked-in li.number-16,
+.checked-in li.number-20,
+.checked-in li.number-24,
+.checked-in li.number-28,
+.checked-in li.number-32,
+.checked-in li.number-36 {
+	margin-right: 0;
+}
+
+.checked-in li.user-37 {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.checked-in li.user-37 img {
+	height: 100px;
+	width: 100px;
+}
+
+.checked-in li.user-37 .meta {
+	padding: 8px !important;
+	width: 80px;
+}
+
+.checked-in li.user-37 h4 {
+	font-weight: normal !important;
+}
+
+.checked-out {
+	float: left;
+	padding: 0;
+	margin: 0 0 5px 0;
+}
+
+.checked-out li {
+	margin: 0 0 12px 0;
+	width: 325px;
+}
+
+.checked-out li img  {
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+.checked-out h4 {
+	margin: 10px 0 5px 15px;
+}
+
+.checked-out p {
+	clear: none;
+	margin: 0;
+	font-size: 11px;
+	text-align: left;
+}
+
+h1 {
+	font-size: 24px;
+	margin-top: 44px;
+	margin-bottom: -25px;
+}
+
+h2 {
+	clear: both;
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 125px;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+h4 {
+	text-align: left;
+}
+
+#logo {
+	display: block;
+	height: 55px;
+	margin: 0 auto;
+	width: 400px;
+}
+
+#logo a {
+	background: url('http://atfounders.com/wp-content/uploads/2012/07/founders-logo-01.png') center top no-repeat;
+	display: block;
+	height: 55px;
+	margin: 80px 0;
+	text-indent: -999em;
+	width: 400px;
+}
+
+#description {
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+
+hr {
+	clear: both;
+	background: #fff;
+	height: 1px;
+	border: none;
+}
+
+p {
+	clear: both;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+li.guest {
+	
+}
+
+li.guest a {
+	color: #000;
+	display: block;
+	font-weight: bold;
+	background: #eee;
+	border: 2px solid #eee;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 26px 15px;
+}
+
+li.guest a:hover {
+	background: #333;
+	color: #fff;
+}
+
+#login-alert {
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.9);
+	height: 3000px;
+	left: 0;
+	padding: 200px 0 0 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+#login-alert h3 {
+	font-size: 28px;
+	font-weight: bold;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+#login-alert p {
+	font-size: 18px;
+}
+
+
