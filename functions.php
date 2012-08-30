@@ -175,7 +175,7 @@ function checkin_users_in_html() {
 		
 		} else {
 		
-			$item = '<li>' . $item . $meta . '</li>';
+			$item = '<li class="user-' . $user->ID . '">' . $item . $meta . '</li>';
 		
 		}
 		
